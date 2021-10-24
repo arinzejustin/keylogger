@@ -6,4 +6,4 @@ Keylogger programs are often deemed spyware because they usually run without the
 
 The best way to protect yourself from keylogger programs is to install anti-virus or security software that warns you when any new programs are being installed. You should also make sure no unauthorized people have access to your computer. This is especially true in work environments. You can also periodically check the current processes running on your computer to make sure no keyloggers or other malware programs are active. While it is unlikely that you have a keylogger programs installed on your computer, it is definitely worth it to check.
 
-#Arinze Justin
+# Arinze Justin
