@@ -19,4 +19,4 @@ $ cd keylogger
 
 - [development website]('https://develop.arinzejustinng.com.ng')
 
-- [Email me]('arinzejustinng@gmail.com') OR [Official Email]('me@arinzejustinng.com.ng')
+- [Email me]('mailto:arinzejustinng@gmail.com') OR [Official Email]('mailto:me@arinzejustinng.com.ng')
